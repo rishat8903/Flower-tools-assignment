@@ -116,3 +116,120 @@ header {
   width: 400px;
 }
 
+/* Featured */
+section#feature {
+  padding: 170px 0 120px;
+}
+
+.feature-flower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.feature-item {
+  flex-basis: 33%;
+}
+
+.flower-img {
+  height: 450px;
+  padding: 110px 75px 0;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 32px;
+  border-radius: 300px 300px 0 0;
+}
+
+.feature-item p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #272727;
+  text-decoration-line: underline;
+}
+
+.flower-img.one {
+  background-color: #a7216226;
+}
+
+.flower-img.two {
+  background-color: #0597a026;
+  padding-bottom: 50px;
+}
+
+.flower-img.three {
+  background-color: #477d1126;
+}
+
+.feature-item p a {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #272727;
+  display: inline-block;
+  padding-top: 32px;
+}
+
+/* Service */
+section#service-container {
+  padding-bottom: 125px;
+}
+
+.service-area {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: #2727270d;
+  padding: 85px 40px;
+  border-radius: 8px;
+  gap: 40px;
+}
+
+.service-item img {
+  margin-bottom: 15px;
+}
+
+.service-item p,
+.service-item figcaption {
+  font-size: 18px;
+  color: #272727;
+}
+section#hot-deal {
+  background-color: #e554730d;
+  border-radius: 8px;
+  padding: 100px 0px;
+}
+
+.deal-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.deal-description {
+  flex-basis: 55%;
+  padding-left: 100px;
+}
+
+.deal-description h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.deal-description h2 span {
+  color: #e55473;
+}
+
+.deal-description p {
+  padding: 25px 0 30px;
+}
+
+.deal-img {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: center;
+}
