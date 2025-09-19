@@ -233,3 +233,109 @@ section#hot-deal {
   display: flex;
   justify-content: center;
 }
+
+/* instagram */
+section#instagram {
+  padding: 120px 0 150px;
+}
+
+.instagram-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+.instagram-post img {
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  transition: 0.3s;
+}
+.instagram-post img:hover {
+  transform: scale(1.05);
+}
+/* Subscribe */
+section#subscribe {
+  padding-bottom: 120px;
+}
+.subscription-detail {
+  background: url(images/Rectangle\ 9.png) center center no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.subscription-detail h2 {
+  font-size: 35px;
+}
+.subscription-detail p {
+  margin: 15px 0 40px;
+  max-width: 600px;
+  color: #27272799;
+}
+.subscription-detail form {
+  margin-top: 40px;
+  display: flex;
+  gap: 15px;
+}
+.subscription-detail form input[type="email"] {
+  padding: 20px 25px;
+  font-size: 18px;
+  border: 2px solid #e55473;
+  border-radius: 8px;
+  width: 700px;
+}
+.subscription-detail form input[type="email"]::placeholder {
+  color: #27272799;
+}
+.subscription-detail form input[type="email"]:focus {
+  outline: none;
+  border-color: #272727;
+}
+.subscription-detail form input[type="button"] {
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 125px 0;
+    margin-top: 100px;
+}
+
+.footer-content {
+    width: 625px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-content h2 {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer-content h2 span {
+    color: #E55473;
+}
+
+.footer-content p {
+    color: #FFFFFFE5;
+}
+
+.footer-content p.copy-right {
+    font-size: 16px;
+    margin-top: 32px;
+    color: #FFFFFF66;
+}
